@@ -10,7 +10,8 @@ adding.addEventListener("click",function(){
     value=input.value;
     lists.innerText=input.value;
     display.appendChild(lists);
-    display.appendChild(l)
+    if (value!=""){
+    display.appendChild(l)}
     input.value="";
     hitt("http://127.0.0.1:5000/"+value)
     lists.addEventListener("click",function(){

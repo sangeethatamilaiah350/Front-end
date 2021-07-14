@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+  
+}
+.whole{
+  margin:0px; 
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  gap:20px;
+
+  background-image:linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+  url('coco.jpg');
+  background-size: 1000px,1600px;
+  
+}
+
+
+.h1{
+  height:80px;
+}
+#input{
+  
+  width:50%;
+  height:30px;
+  
+ 
+}
+.input{
+  display: flex;
+  justify-content:center;
+  gap: 20px;
+
+}
+.container{
+  gap:5px;
+  height:500px;
+}
+.to-do-list{
+  margin:0;
+  padding:30px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-align:center;
+  height:auto;
+  text-align-last: auto;
+  
+}
+.footer{
+  
+  background-color:hsl(0, 18%, 97%);
+  padding:5px;
+  text-align:center;
+
+    height: 80px;
+    position:fixed;
+    bottom: 0px;
+    
+    margin-bottom: 0px;
+    width:100%;
+}
+.paragraph-styling{
+  margin:0;
+    cursor:pointer;
+    font-size: 25px;
+    text-align:left;
+    width:200px;
+    
+}
+.line{
+  height:1px;
+  width:50%;
+  border-top: 1px dotted hsl(0, 10%, 94%);
+}
